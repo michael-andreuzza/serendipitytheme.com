@@ -55,7 +55,7 @@
                 </svg>
                 <span class="ml-4"> VS Code</span>
             </span>
-            <div class="flex items-center mt-12 justify-left">
+            <div class="flex flex-wrap items-center mt-12 justify-left ">
                 <a href="vscode:extension/wicked-labs.wvsc-serendipity" class="
             flex
             text-xl
@@ -77,7 +77,7 @@
             hover:border-[#73D0FF]
             ring-offset-current ring-offset-2
           ">Install on Vs Code</a>
-                <div class="w-1/2 ml-4">
+                <div class="hidden w-full lg:ml-4 lg:w-1/2 lg:block">
                     <label for="name" class="text-base leading-7 text-[#CBCCC670]">Install via cli</label>
 
                     <div class="bg-[#232834] py-1 rounded-lg border border-[#CBCCC650]">
@@ -99,11 +99,11 @@
         </div>
     </div>
 
-    <div class="container flex flex-col justify-center px-1 py-24 mx-auto text-left">
+    <div class="container flex flex-col justify-center px-5 py-24 mx-auto text-left lg:px-1">
         <div class="pb-4 mx-4 my-8 border-b border-[#CBCCC610]">
-            <div class="flex">
+            <div class="flex flex-wrap items-center w-full lg:inline-flex">
                 <span class="mr-3 font-mono font-light text-[#CBCCC670]">Dark Mode</span>
-                <span class="ml-auto">
+                <span class="mt-4 lg:mt-0 lg:ml-auto">
                     <button class="
                 w-6
                 h-6
@@ -160,7 +160,7 @@
                         <a :class="openTab === 1 ? activeClasses : inactiveClasses" class="
                 inline-block
                 cursor-pointer
-                px-12
+                lg:px-12 px-8
                 text-sm
                 py-2
                 font-normal font-mono
@@ -174,7 +174,7 @@
                         <a :class="openTab === 2 ? activeClasses : inactiveClasses" class="
                 inline-block
                 cursor-pointer
-                px-12
+                 lg:px-12 px-8
                 text-sm
                 py-2
                 font-normal font-mono
@@ -185,7 +185,7 @@
                         <a :class="openTab === 3 ? activeClasses : inactiveClasses" class="
                 inline-block
                 cursor-pointer
-                px-12
+                 lg:px-12 px-8
                 text-sm
                 py-2
                 font-normal font-mono
@@ -207,11 +207,11 @@
 
 </section>
 <section class="bg-[#fafafa]">
-    <div class="container flex flex-col justify-center px-1 py-24 mx-auto text-left ">
+    <div class="container flex flex-col justify-center px-5 py-24 mx-auto text-left lg:px-1 ">
         <div class="pb-4 mx-4 my-8 border-b border-[#23283410]">
-            <div class="flex">
+            <div class="flex flex-wrap items-center w-full lg:inline-flex">
                 <span class="mr-3 font-mono font-light text-[#232834]">Dark Mode</span>
-                <span class="ml-auto">
+                <span class="mt-4 lg:mt-0 lg:ml-auto">
                     <button class="
                     w-6
                     h-6
@@ -269,7 +269,7 @@
                         <a :class="openTab === 1 ? activeClasses : inactiveClasses" class="
                     inline-block
                     cursor-pointer
-                    px-12
+                    lg:px-12 px-8
                     text-sm
                     py-2
                     font-normal font-mono
@@ -283,7 +283,7 @@
                         <a :class="openTab === 2 ? activeClasses : inactiveClasses" class="
                     inline-block
                     cursor-pointer
-                    px-12
+                    lg:px-12 px-8
                     text-sm
                     py-2
                     font-normal font-mono
@@ -294,7 +294,7 @@
                         <a :class="openTab === 3 ? activeClasses : inactiveClasses" class="
                     inline-block
                     cursor-pointer
-                    px-12
+                    lg:px-12 px-8
                     text-sm
                     py-2
                     font-normal font-mono
@@ -334,7 +334,7 @@
                     hover:border-[#F07171]
                     ring-offset-current ring-offset-2
                   ">Install on Vs Code</a>
-            <div class="w-1/2 ml-4">
+            <div class="hidden w-full lg:ml-4 lg:w-1/2 lg:block">
                 <label for="name" class="text-base leading-7 text-[#232834]">Install via cli</label>
 
                 <div class="bg-[#CBCCC650] py-1 rounded-lg border border-[#CBCCC650]">
