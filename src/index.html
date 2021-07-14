@@ -1,0 +1,359 @@
+{{#extend "default" }}{{#content "body"}}
+<!----Hero  -->
+<section class="bg-gradient-to-tr from-[#232834] to-[#1f2430]">
+    <div class="container flex flex-col justify-center px-10 pt-32 mx-auto">
+        <div class="flex flex-col justify-center mx-auto text-left lg:w-1/2">
+            <h1 class="
+          text-3xl
+          leading-snug
+          text-left text-[#6C7681]
+          lg:text-7xl
+          font-extralight
+        ">
+                Serendipity
+            </h1>
+            <p class="
+          text-xl
+          mt-6
+          font-mono
+          text-left
+          tracking-tight
+          inline-flex
+          items-center
+          font-normal
+          leading-relaxed
+          text-[#CBCCC670]
+        ">
+                // this theme has two options, dark &amp; bright.
+            </p>
+            <p data-animate="subtitle" class="
+          text-xl text-left
+          font-mono
+          tracking-tight
+          inline-flex
+          items-center
+          font-normal
+          leading-relaxed
+          text-[#CBCCC670]
+        ">
+                // Meticulosly created to work on retina screens.
+            </p>
+            <span class="
+          inline-flex
+          items-center
+          font-mono
+          text-2xl text-left
+          font-light
+          text-[#78A9FF]
+          mt-4
+        ">
+                <span>for </span>
+                <svg class="ml-4" width="21" height="22" viewBox="0 0 21 22">
+                    <path fill="#565C6C"
+                        d="M21.9980902,7.05213528 L22,24.9558586 L17.0004653,27 L8.24542044,18.3059039 L2.9904497,22.3987722 L1,21.3771089 L1.00199979,10.6348745 L3.00181348,9.60581456 L8.26108889,13.7020894 L16.9946509,5 L21.9980902,7.05213528 Z M16.4966475,12.1654844 L11.4990677,15.9880111 L16.4986023,19.8405089 L16.4966475,12.1654844 Z M3.4986824,13.7064321 L3.50168388,18.3041032 L5.99842148,15.9897298 L3.4986824,13.7064321 Z"
+                        transform="translate(-1 -5)"></path>
+                </svg>
+                <span class="ml-4"> VS Code</span>
+            </span>
+            <div class="flex items-center mt-12 justify-left">
+                <a href="vscode:extension/wicked-labs.wvsc-serendipity" class="
+            flex
+            text-xl
+            items-center
+            px-12
+            py-3
+            border-2 border-[#78A9FF]
+            mt-auto
+            font-normal
+            text-[#232834]
+            transition
+            duration-500
+            ease-in-out
+            transform
+            bg-[#78A9FF]
+            rounded-lg
+            hover:bg-[#73D0FF]
+            focus:shadow-outline focus:outline-none focus:ring-2
+            hover:border-[#73D0FF]
+            ring-offset-current ring-offset-2
+          ">Install on Vs Code</a>
+                <div class="w-1/2 ml-4">
+                    <label for="name" class="text-base leading-7 text-[#CBCCC670]">Install via cli</label>
+
+                    <div class="bg-[#232834] py-1 rounded-lg border border-[#CBCCC650]">
+                        <pre class="
+                px-6
+                py-1
+                overflow-x-scroll
+                text-[#CBCCC670] text-left
+                bg-transparent
+                whitespace-nowrap
+              ">
+
+                                   $ git clone https://github.com/michael-andreuzza/wvsc-serendipity.git
+
+                            </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container flex flex-col justify-center px-1 py-24 mx-auto text-left">
+        <div class="pb-4 mx-4 my-8 border-b border-[#CBCCC610]">
+            <div class="flex">
+                <span class="mr-3 font-mono font-light text-[#CBCCC670]">Dark Mode</span>
+                <span class="ml-auto">
+                    <button class="
+                w-6
+                h-6
+                border border-[#CBCCC610]
+                rounded-full
+                bg
+                focus:outline-none
+              ">
+                    </button>
+                    <button class="
+                w-6
+                h-6
+                ml-1
+                bg-[#1f2430]
+                border border-[#CBCCC610]
+                rounded-full
+                focus:outline-none
+              ">
+                    </button>
+
+                    <button class="
+                w-6
+                h-6
+                ml-1
+                border border-[#CBCCC610]
+                rounded-full
+                bg-[#CBCCC6]
+                focus:outline-none
+              ">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#F29E74] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#F06897] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#D4BFFF] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#9EF0F0] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 rounded-full bg-[#73D0FF] focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 rounded-full bg-[#78A9FF] focus:outline-none">
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="w-full h-full rounded-lg shadow-thick bg-[#232834]">
+            <div x-data="{
+                  openTab: 1,
+                  activeClasses: 'border-1 border-t    text-[#CBCCC6] bg-[#232834] border-t-[#F06897]',
+                  inactiveClasses: 'text-[#CBCCC670] hover:text-[#CBCCC6] text-[#CBCCC6] bg-[#1f2430]'
+                }" class="w-full h-full bg-[#232834] rounded-lg">
+                <ul class="flex text-left bg-[#232834]">
+                    <li @click="openTab = 1" :class="{ '': openTab === 1 }">
+                        <a :class="openTab === 1 ? activeClasses : inactiveClasses" class="
+                inline-block
+                cursor-pointer
+                px-12
+                text-sm
+                py-2
+                font-normal font-mono
+                rounded-tl-lg
+                border border-[#191e2a]
+              ">
+                            html
+                        </a>
+                    </li>
+                    <li @click="openTab = 2" :class="{ '': openTab === 2 }">
+                        <a :class="openTab === 2 ? activeClasses : inactiveClasses" class="
+                inline-block
+                cursor-pointer
+                px-12
+                text-sm
+                py-2
+                font-normal font-mono
+                border border-[#191e2a] border-r-0
+              ">css</a>
+                    </li>
+                    <li @click="openTab = 3" :class="{ '': openTab === 3 }">
+                        <a :class="openTab === 3 ? activeClasses : inactiveClasses" class="
+                inline-block
+                cursor-pointer
+                px-12
+                text-sm
+                py-2
+                font-normal font-mono
+                border border-[#191e2a] border-r-0
+              ">js</a>
+                    </li>
+                    <li class="bg-[#1f2430] w-full border border-[#191e2a] rounded-tr-lg"></li>
+                </ul>
+                <div class="w-full p-4 border-[#191e2a] border-t-0 rounded-b-lg">
+                    <div class="h-full" class="" x-show="openTab === 1">
+                        {{>previewHtml}}
+                    </div>
+                    <div class="h-full" x-show="openTab === 2">{{>previewCss}}</div>
+                    <div class="h-full" x-show="openTab === 3">{{>previewJs}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="bg-[#fafafa]">
+    <div class="container flex flex-col justify-center px-1 py-24 mx-auto text-left ">
+        <div class="pb-4 mx-4 my-8 border-b border-[#23283410]">
+            <div class="flex">
+                <span class="mr-3 font-mono font-light text-[#232834]">Dark Mode</span>
+                <span class="ml-auto">
+                    <button class="
+                    w-6
+                    h-6
+                    border border-[#23283410]
+                    rounded-full
+                    bg
+                    focus:outline-none
+
+                  ">
+                    </button>
+                    <button class="
+                    w-6
+                    h-6
+                    ml-1
+                    bg-[#fafafa]
+                    border border-[#23283410]
+                    rounded-full
+                    focus:outline-none
+                  ">
+                    </button>
+
+                    <button class="
+                    w-6
+                    h-6
+                    ml-1
+                    border border-[#CBCCC610]
+                    rounded-full
+                    bg-[#f0f0f0]
+                    focus:outline-none
+                  ">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#F07171] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#F06897] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#A173FF] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 bg-[#14B8A6] rounded-full focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 rounded-full bg-[#399EE6] focus:outline-none">
+                    </button>
+                    <button class="w-6 h-6  ml-1 rounded-full bg-[#4589FF] focus:outline-none">
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="w-full h-full rounded-lg shadow-2xl bg-[#fafafa]">
+            <div x-data="{
+                      openTab: 1,
+                      activeClasses: 'border-1 border-t    text-[#232834] bg-[#fafafa] border-t-[#F06897]',
+                      inactiveClasses: 'text-[#232834] hover:text-[#23283470] text-[#232834] bg-[#f0f0f0]'
+                    }" class="w-full h-full bg-[#f0f0f0] rounded-lg">
+                <ul class="flex text-left bg-[#fafafa] rounded-lg">
+                    <li @click=" openTab=1" :class="{ '': openTab === 1 }">
+                        <a :class="openTab === 1 ? activeClasses : inactiveClasses" class="
+                    inline-block
+                    cursor-pointer
+                    px-12
+                    text-sm
+                    py-2
+                    font-normal font-mono
+                    rounded-tl-lg
+                    border border-[#8a91991a]
+                  ">
+                            html
+                        </a>
+                    </li>
+                    <li @click="openTab = 2" :class="{ '': openTab === 2 }">
+                        <a :class="openTab === 2 ? activeClasses : inactiveClasses" class="
+                    inline-block
+                    cursor-pointer
+                    px-12
+                    text-sm
+                    py-2
+                    font-normal font-mono
+                    border border-[#8a91991a] border-l-0 border-r-0
+                  ">css</a>
+                    </li>
+                    <li @click="openTab = 3" :class="{ '': openTab === 3 }">
+                        <a :class="openTab === 3 ? activeClasses : inactiveClasses" class="
+                    inline-block
+                    cursor-pointer
+                    px-12
+                    text-sm
+                    py-2
+                    font-normal font-mono
+                    border border-[#8a91991a] border-r-0
+                  ">js</a>
+                    </li>
+                    <li class="bg-[#f0f0f0] w-full border border-[#8a91991a] rounded-tr-lg"></li>
+                </ul>
+                <div class="w-full p-4 border-[#8a91991a] border-t-0 rounded-b-lg bg-white">
+                    <div class="h-full" class="" x-show="openTab === 1">
+                        {{>previewHtmlLight}}
+                    </div>
+                    <div class="h-full" x-show="openTab === 2">{{>previewCssLight}}</div>
+                    <div class="h-full" x-show="openTab === 3">{{>previewJsLight}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center w-full mx-auto mt-12 justify-left lg:w-1/2">
+            <a href="vscode:extension/wicked-labs.wvsc-serendipity" class="
+                    flex
+                    text-xl
+                    items-center
+                    px-12
+                    py-3
+                    border-2 border-[#F06897]
+                    mt-auto
+                    font-normal
+                    text-[#fafafa]
+                    transition
+                    duration-500
+                    ease-in-out
+                    transform
+                    bg-[#F06897]
+                    rounded-lg
+                    hover:bg-[#F07171]
+                    focus:shadow-outline focus:outline-none focus:ring-2
+                    hover:border-[#F07171]
+                    ring-offset-current ring-offset-2
+                  ">Install on Vs Code</a>
+            <div class="w-1/2 ml-4">
+                <label for="name" class="text-base leading-7 text-[#232834]">Install via cli</label>
+
+                <div class="bg-[#CBCCC650] py-1 rounded-lg border border-[#CBCCC650]">
+                    <pre class="
+                        px-6
+                        py-1
+                        overflow-x-scroll
+                        text-[#232834] text-left
+                        bg-transparent
+                        whitespace-nowrap
+                      ">
+
+                                           $ git clone https://github.com/michael-andreuzza/wvsc-serendipity.git
+
+                                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{/content}}{{/extend}}
