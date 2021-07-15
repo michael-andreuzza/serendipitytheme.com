@@ -18,7 +18,14 @@
   background-color: #9EF0F0;
 }
 
+/* For firefox */
 
-
+html {
+  scrollbar-color: #1f2430 transparent;
+  scrollbar-width: thin;
+}
+.white-pre {
+scrollbar-color: #fafafa transparent;
+}
 @tailwind components;
 @tailwind utilities;
