@@ -1,3 +1,4 @@
+
 const gulp = require("gulp");
 
 const del = require("del");
@@ -128,6 +129,7 @@ gulp.task("images", function () {
     .pipe(imagemin())
     .pipe(gulp.dest(paths.images.dist));
 });
+
 
 // -------------------------------------
 //   Task: views
