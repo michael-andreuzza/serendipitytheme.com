@@ -50,10 +50,10 @@ module.exports = {
         lavender: "#c693ff",
         bombon: "#ff5c98",
         salmon: "#ff8074",
-        harp: "#cbccc5",
-        express: "#222835",
-        pearl: "#1e2431",
-        mirage: "#181e2b",
+        harp: "#f6f6f6",
+        express: "#21272f",
+        pearl: "#191f28",
+        mirage: "#1e2431",
 
         //Light Theme
         //Bombon is used here too
