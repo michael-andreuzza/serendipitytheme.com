@@ -19,8 +19,8 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         squares: "url('../images/serendipityhero.png')",
-        lightThemeHero: "url('../images/lightThemeHero.png')",
-        darkThemeHero: "url('../images/darkThemeHero.png')",
+        wickedAd: "url('../images/wickedad.png')",
+
       }),
       boxShadow: {
         DEFAULT: "0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)",
