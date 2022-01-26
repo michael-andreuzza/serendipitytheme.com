@@ -1,148 +1,82 @@
-<section class="relative w-full">
+<section c>
   <div
-    class="relative items-center w-full px-5 pb-12 mx-auto md:px-12 lg:px-44 2xl:max-w-7xl"
+    class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-24 max-w-7xl"
   >
-    <div class="pt-12 mx-auto">
-      <div>
-        <h1
-          data-animate="title"
-          class="py-10 text-4xl font-bold leading-none tracking-tighter font-display text-morningText lg:text-6xl"
-        >
-          Serendipity ported themes.
-        </h1>
-        <p class="max-w-4xl mt-2 text-lg text-morningSubtle">
-          Serendipity has been ported to a variety of interfaces, find the one
-          you need and get code instantly from the repo. Every repository has
-          detailed information on how to apply them with text and images, you
-          can also preview the images.
-        </p>
-      </div>
-    </div>
-  </div>
+    <div class="items-center pt-12">
+      <h1
+        class="text-5xl font-thin leading-snug tracking-tighter text-morningText font-display lg:text-7xl"
+      >
+        Serendipity ported themes.
+      </h1>
+      <p class="mt-6 text-lg text-morningSubtle">
+        Serendipity has been ported to a variety of interfaces, find the one you
+        need and get code instantly from the repo. Every repository has detailed
+        information on how to apply them with text and images, you can also
+        preview the images.
+      </p>
+      <div class="mt-24 space-y-24">
+        <div>
+          <div>
+            <h2
+              class="text-lg font-medium text-morningText font-display lg:text-2xl"
+            >
+              Code editors
+            </h2>
+          </div>
 
-  <div
-    class="relative items-center w-full px-5 py-12 mx-auto lg:pb-12 lg:py-0 md:px-12 lg:px-16 max-w-7xl"
-  >
-    <div
-      class="p-8 lg:p-20 lg:block bg-morningHightLow shadow-thick rounded-3xl"
-    >
-      <div class="flex flex-col">
-        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div
-            class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
+            class="flex flex-col w-full py-6 mt-6 space-y-12 border-t border-b border-morningOverlay"
           >
-            <div class="overflow-hidden">
-              <table class="min-w-full">
-                {{>"themes/tableHead"}}
-                <tbody>
-                  <tr>
-                    <th
-                      class="py-16 pl-6 text-sm font-medium text-left text-morningText"
-                      colspan="4"
-                      scope="colgroup"
-                    >
-                      <div class="relative">
-                        <div
-                          class="absolute inset-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <div
-                            class="w-full border-t border-morningFennel bg-morningHightLow"
-                          ></div>
-                        </div>
-                        <div class="relative flex justify-start">
-                          <span
-                            class="pr-3 text-sm font-medium lg:text-lg text-morningFennel bg-morningHightLow"
-                          >
-                            Code Editors
-                          </span>
-                        </div>
-                      </div>
-                    </th>
-                  </tr>
-                  {{>"themes/vsCode"}}
-                  <tr>
-                    <th
-                      class="py-16 pl-6 text-sm font-medium text-left text-morningText"
-                      colspan="4"
-                      scope="colgroup"
-                    >
-                      <div class="relative">
-                        <div
-                          class="absolute inset-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <div
-                            class="w-full border-t border-morningCoral bg-morningInterface"
-                          ></div>
-                        </div>
-                        <div class="relative flex justify-start">
-                          <span
-                            class="pr-3 text-sm font-medium lg:text-lg text-morningCoral bg-morningHightLow"
-                          >
-                            Terminals
-                          </span>
-                        </div>
-                      </div>
-                    </th>
-                  </tr>
-                  {{>"themes/windowsTerminal"}} {{>"themes/iterm"}}
-                  <tr>
-                    <th
-                      class="py-16 pl-6 text-sm font-medium text-left text-morningText"
-                      colspan="4"
-                      scope="colgroup"
-                    >
-                      <div class="relative">
-                        <div
-                          class="absolute inset-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <div
-                            class="w-full border-t border-morningSky bg-morningInterface"
-                          ></div>
-                        </div>
-                        <div class="relative flex justify-start">
-                          <span
-                            class="pr-3 text-sm font-medium lg:text-lg text-morningSky bg-morningHightLow"
-                          >
-                            Apps
-                          </span>
-                        </div>
-                      </div>
-                    </th>
-                  </tr>
-                  {{>"themes/slackChannel"}}
-                  {{>"themes/linearApp"}}{{>"themes/discord"}}
-                  <tr>
-                    <th
-                      class="py-16 pl-6 text-sm font-medium text-left text-morningText"
-                      colspan="4"
-                      scope="colgroup"
-                    >
-                      <div class="relative">
-                        <div
-                          class="absolute inset-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <div
-                            class="w-full border-t border-morningMint bg-morningInterface"
-                          ></div>
-                        </div>
-                        <div class="relative flex justify-start">
-                          <span
-                            class="pr-3 text-sm font-medium lg:text-lg text-morningMint bg-morningHightLow"
-                          >
-                            Code
-                          </span>
-                        </div>
-                      </div>
-                    </th>
-                  </tr>
-                  {{>"themes/css"}}
-                </tbody>
-              </table>
-            </div>
+            {{>"themes/vsCode"}}
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h2
+              class="text-lg font-medium text-morningText font-display lg:text-2xl"
+            >
+              Terminals
+            </h2>
+          </div>
+
+          <div
+            class="flex flex-col py-6 mt-6 space-y-12 border-t border-b border-gray-200"
+          >
+            {{>"themes/windowsTerminal"}} {{>"themes/iterm"}}
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h2
+              class="text-lg font-medium text-morningText font-display lg:text-2xl"
+            >
+              Apps
+            </h2>
+          </div>
+
+          <div
+            class="flex flex-col py-6 mt-6 space-y-12 border-t border-b border-gray-200"
+          >
+            {{>"themes/linearApp"}} {{>"themes/slackChannel"}}
+            {{>"themes/discord"}}
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h2
+              class="text-lg font-medium text-morningText font-display lg:text-2xl"
+            >
+              Code
+            </h2>
+          </div>
+
+          <div
+            class="flex flex-col py-6 mt-6 space-y-12 border-t border-b border-gray-200"
+          >
+            {{>"themes/css"}}
           </div>
         </div>
       </div>

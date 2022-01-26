@@ -1,11 +1,15 @@
-<section class="relative w-full overflow-hidden">
+<section>
   <div
-    class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-36 2xl:max-w-7xl"
+    class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-24 max-w-7xl"
   >
-    {{>"landing/states"}}
+    <div class="inline-flex items-center gap-3">
+      {{>"themes/logoMidnight"}} {{>"themes/logoSunset"}}
+      {{>"themes/logoMorning"}}
+    </div>
+
     <div class="mt-10">
       <h1
-        class="text-5xl font-thin leading-snug tracking-tighter text-morningText font-display lg:text-8xl"
+        class="text-5xl font-thin leading-snug tracking-tighter text-morningText font-display lg:text-7xl"
       >
         Nature has created a wonderful Serendipity yo!
       </h1>
@@ -19,7 +23,7 @@
         <div class="rounded-lg sm:mt-0">
           <a
             href="./themes.html"
-            class="inline-flex px-12 py-4 text-lg font-medium text-center rounded-full text-morningBase tems-center bg-morningFennel hover:bg-midnightFennel focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-morningOverlay"
+            class="inline-flex px-12 py-4 text-lg font-medium text-center transition duration-500 ease-in-out rounded-full text-morningBase tems-center bg-morningFennel hover:bg-midnightFennel focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-morningOverlay"
           >
             Find yours!
           </a>

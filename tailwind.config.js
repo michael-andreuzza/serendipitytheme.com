@@ -10,8 +10,8 @@ module.exports = {
         wickedAd: "url('../images/wickedad.png')",
       }),
       boxShadow: {
-        button: "-2px 5px 0px 0px rgb(0 0 0 / 20%)",
-        ripple: "-8px -8px 24px 0 rgba(255, 255, 255, .8), 8px 8px 12px 0 rgba(0, 0, 0, .06), -2px -2px 4px 0 rgba(255, 255, 255, 1), 2px 2px 4px 0 rgba(0, 0, 0, .06), 2px 2px 8px 0 rgba(0, 0, 0, .01) inset, -2px -2px 8px 0 rgba(255, 255, 255, .6) inset",
+
+        ripple: "",
 
       },
 
@@ -49,17 +49,17 @@ module.exports = {
         sunsetViolet: "#A392DC",
         sunsetSky: "#A0B6E8",
         //Morning
-        morningBase: "#FAF4ED",
-        morningInterface: "#FFFAF3",
-        morningOverlay: "#F2E9DE",
-        morningMuted: "#9893A5",
-        morningSubtle: "#797593",
-        morningText: "#575279",
-        morningHightLow: "#F4EDE8",
-        morningHighMedium: "#DFDAD9",
-        morningHighlightHigh: "#CECACD",
+        morningBase: "#FDFDFE",
+        morningInterface: "#F1F1F4",
+        morningOverlay: "#D8DAE4",
+        morningMuted: "#8388AD",
+        morningSubtle: "#5F6488",
+        morningText: "#4E5377",
+        morningHightLow: "#C1C3D6",
+        morningHighMedium: "#AAB0D5",
+        morningHighlightHigh: "#949ABE",
         morningCoral: "#D26A5D",
-        morningSalmon: "#C8A299",
+        morningSalmon: "#F19A8E",
         morningViolet: "#886CDB",
         morningFennel: "#3788BE",
         morningSky: "#7397DE",
