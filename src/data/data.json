@@ -1,5 +1,153 @@
 {
-  "code": [
-    "codeSnippets/headers-right/header-1"
+  "morning": [
+    {
+      "bg": "#D26A5D",
+      "name": "Coral"
+    },
+    {
+      "bg": "#F19A8E",
+      "name": "Salmon"
+    },
+    {
+      "bg": "#3788BE",
+      "name": "Fennel"
+    },
+    {
+      "bg": "#77AAB3",
+      "name": "Mint"
+    },
+    {
+      "bg": "#886CDB",
+      "name": "Violet"
+    },
+    {
+      "bg": "#7397DE",
+      "name": "Sky"
+    },
+    {
+      "bg": "#FDFDFE",
+      "name": "Base"
+    },
+    {
+      "bg": "#F1F1F4",
+      "name": "Interface"
+    },
+    {
+      "bg": "#D8DAE4",
+      "name": "Overlay"
+    },
+    {
+      "bg": "#8388AD",
+      "name": "Soft"
+    },
+    {
+      "bg": "#5F6488",
+      "name": "Slight"
+    },
+    {
+      "bg": "#4E5377",
+      "name": "Text"
+    }
+  ],
+  "sunset": [
+    {
+      "bg": "#D1918F",
+      "name": "Coral"
+    },
+    {
+      "bg": "#D6B4B4",
+      "name": "Salmon"
+    },
+    {
+      "bg": "#709BBD",
+      "name": "Fennel"
+    },
+    {
+      "bg": "#AAC9D4",
+      "name": "Salmon"
+    },
+    {
+      "bg": "#A392DC",
+      "name": "Violet"
+    },
+    {
+      "bg": "#A0B6E8",
+      "name": "Sky"
+    },
+    {
+      "bg": "#202231",
+      "name": "Base"
+    },
+    {
+      "bg": "#272938",
+      "name": "Interface"
+    },
+    {
+      "bg": "#363847",
+      "name": "Overlay"
+    },
+    {
+      "bg": "#6B6D7C",
+      "name": "soft"
+    },
+    {
+      "bg": "#8D8F9E",
+      "name": "Slight"
+    },
+    {
+      "bg": "#DEE0EF",
+      "name": "Text"
+    }
+  ],
+  "midnight": [
+    {
+      "bg": "#EE8679",
+      "name": "Coral"
+    },
+    {
+      "bg": "#F8D2C9",
+      "name": "Salmon"
+    },
+    {
+      "bg": "#5BA2D0",
+      "name": "Fennel"
+    },
+    {
+      "bg": "#9CCFD8",
+      "name": "Mint"
+    },
+    {
+      "bg": "#A78BFA",
+      "name": "Violet"
+    },
+    {
+      "bg": "#94B8FF",
+      "name": "Sky"
+    },
+    {
+      "bg": "#151726",
+      "name": "Base"
+    },
+    {
+      "bg": "#1C1E2D",
+      "name": "Interface"
+    },
+    {
+      "bg": "#232534",
+      "name": "Overlay"
+    },
+    {
+      "bg": "#6B6D7C",
+      "name": "Soft"
+    },
+    {
+      "bg": "#8D8F9E",
+      "name": "Slight"
+    },
+    {
+      "bg": "#DEE0EF",
+      "name": "Text"
+    }
+
   ]
 }
