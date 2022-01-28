@@ -15,9 +15,9 @@
       x-transition:leave-start="transform translate-x-0 opacity-100"
       x-transition:leave-end="transform translate-x-full opacity-0"
       @click="remove(notice.id)"
-      class="z-50 flex items-center justify-center w-full h-16 mx-auto mb-4 text-lg font-normal tracking-tighter text-white shadow cursor-pointer border-[0.5px] rounded-sm lg:w-1/4"
+      class="z-50 flex items-center justify-center w-full h-16 mx-auto mb-4 text-lg font-normal tracking-tighter rounded-full shadow cursor-pointer lg:w-1/4"
       :class="{
-                        				'bg-wickeddark bg-opacity-70 rounded-sm backdrop-blur-2xl backdrop-filter': notice.type === 'success',
+                        				'bg-morningFennel text-sunsetText rounded-full  font-display': notice.type === 'success',
                         			 }"
       style="pointer-events: all"
       x-text="notice.text"
