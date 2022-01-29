@@ -47,6 +47,18 @@
     {
       "bg": "#4E5377",
       "name": "Text"
+    },
+    {
+      "bg": "#C1C3D6",
+      "name": "Focus Low"
+    },
+    {
+      "bg": "#AAB0D5",
+      "name": "Focus Medium"
+    },
+    {
+      "bg": "#949ABE",
+      "name": "Focus High"
     }
   ],
   "sunset": [
@@ -64,7 +76,7 @@
     },
     {
       "bg": "#AAC9D4",
-      "name": "Salmon"
+      "name": "Mint"
     },
     {
       "bg": "#A392DC",
@@ -97,6 +109,18 @@
     {
       "bg": "#DEE0EF",
       "name": "Text"
+    },
+    {
+      "bg": "#292A3A",
+      "name": "Focus Low"
+    },
+    {
+      "bg": "#414354",
+      "name": "Focus Medium"
+    },
+    {
+      "bg": "#535568",
+      "name": "Focus High"
     }
   ],
   "midnight": [
@@ -147,6 +171,18 @@
     {
       "bg": "#DEE0EF",
       "name": "Text"
+    },
+    {
+      "bg": "#1F212F",
+      "name": "Focus Low"
+    },
+    {
+      "bg": "#3E404F",
+      "name": "Focus Medium"
+    },
+    {
+      "bg": "#535568",
+      "name": "Focus High"
     }
 
   ]

@@ -17,7 +17,7 @@
       @click="remove(notice.id)"
       class="z-50 flex items-center justify-center w-full h-16 mx-auto mb-4 text-lg font-normal tracking-tighter rounded-full shadow cursor-pointer lg:w-1/4"
       :class="{
-                        				'bg-morningFennel text-sunsetText rounded-full  font-display': notice.type === 'success',
+                        				'bg-morningFennel text-sunsetText rounded-full   ': notice.type === 'success',
                         			 }"
       style="pointer-events: all"
       x-text="notice.text"
