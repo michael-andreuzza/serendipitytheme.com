@@ -7,7 +7,7 @@
   <div class="py-12">
     <h4
 
-      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display lg:text-5xl"
+      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display lg:text-7xl"
     >
        morning
     </h4>
@@ -18,14 +18,23 @@
         title="Click to copy"
         data-clipboard-text="{{bg}}"
         @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
-        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top bg-midnightInterface hover:bg-right-bottom focus:outline-none copy-button"
+        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top hover:bg-right-bottom focus:outline-none copy-button"
       >
         <div class="w-full h-28  bg-[{{bg}}]"></div>
-        <p
-          class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
-        >
-          <span>{{name}} - {{bg}}  </span>
-        </p>
+        <div class="inline-flex items-center justify-between h-20 gap-4 font-display">
+          <p
+            class="text-sm font-light i md:text-md text-midnightText"
+          >
+            <span>{{name}}   </span>
+
+          </p>
+          <p
+            class="text-sm font-light md:text-md text-midnightSlight"
+          >
+
+            <span> {{bg}}  </span>
+          </p>
+        </div>
       </button>
       {{/each}}
     </div>
@@ -34,25 +43,34 @@
   <div class="py-12">
     <h4
 
-      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display lg:text-5xl"
+      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display lg:text-7xl"
     >
        Sunset
     </h4>
-    <div class="grid grid-cols-3 g md:grid-cols-6">
+    <div class="grid grid-cols-3 md:grid-cols-6">
       {{#each data.sunset}}
       <button
         x-data="{}"
         title="Click to copy"
         data-clipboard-text="{{bg}}"
         @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
-        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top bg-midnightInterface hover:bg-right-bottom focus:outline-none copy-button"
+        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top hover:bg-right-bottom focus:outline-none copy-button"
       >
         <div class="w-full h-28  bg-[{{bg}}]"></div>
-        <p
-          class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
-        >
-          <span>{{name}} - {{bg}}  </span>
-        </p>
+         <div class="inline-flex items-center justify-between h-20 gap-4 font-display">
+          <p
+            class="text-sm font-light i md:text-md text-midnightText"
+          >
+            <span>{{name}}   </span>
+
+          </p>
+          <p
+            class="text-sm font-light md:text-md text-midnightSlight"
+          >
+
+            <span> {{bg}}  </span>
+          </p>
+        </div>
       </button>
       {{/each}}
     </div>
@@ -60,7 +78,7 @@
   <div class="py-12">
     <h4
 
-      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display lg:text-5xl"
+      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display lg:text-7xl"
     >
        Morning
     </h4>
@@ -71,14 +89,23 @@
         title="Click to copy"
         data-clipboard-text="{{bg}}"
         @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
-        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top bg-midnightInterface hover:bg-right-bottom focus:outline-none copy-button"
+        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top hover:bg-right-bottom focus:outline-none copy-button"
       >
         <div class="w-full h-28  bg-[{{bg}}]"></div>
-        <p
-          class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
-        >
-          <span>{{name}} - {{bg}}  </span>
-        </p>
+         <div class="inline-flex items-center justify-between h-20 gap-4 font-display">
+          <p
+            class="text-sm font-light i md:text-md text-midnightText"
+          >
+            <span>{{name}}   </span>
+
+          </p>
+          <p
+            class="text-sm font-light md:text-md text-midnightSlight"
+          >
+
+            <span> {{bg}}  </span>
+          </p>
+        </div>
       </button>
       {{/each}}
     </div>
