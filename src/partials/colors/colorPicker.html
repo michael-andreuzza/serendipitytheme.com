@@ -2,24 +2,24 @@
   <div class="py-20">
     <h4
       id="main-swatches"
-      class="pb-6 text-lg font-semibold leading-none text-morningText font-display"
+      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display"
     >
-      Serendipity Morning
+      Serendipity midnight
     </h4>
     <div class="grid grid-cols-3 gap-4 sm:gap-6 md:grid-cols-6">
-      {{#each data.morning}}
+      {{#each data.midnight}}
       <button
         x-data="{}"
         title="Click to copy"
         data-clipboard-text="{{bg}}"
         @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
-        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top rounded-lg bg-morningInterface hover:bg-right-bottom focus:outline-none copy-button"
+        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top bg-midnightInterface hover:bg-right-bottom focus:outline-none copy-button"
       >
-        <div class="w-full h-full rounded-t-lg bg-[{{bg}}]"></div>
+        <div class="w-full h-28  bg-[{{bg}}]"></div>
         <p
-          class="inline-flex items-center h-20 px-2 text-sm font-semibold text-center md:text-md text-morningText"
+          class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
         >
-          <span>{{name}} </span>
+          <span>{{name}} - {{bg}} </span>
         </p>
       </button>
       {{/each}}
@@ -29,7 +29,7 @@
   <div class="py-20">
     <h4
       id="main-swatches"
-      class="pb-6 text-lg font-semibold leading-none text-morningText font-display"
+      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display"
     >
       Serendipity Sunset
     </h4>
@@ -40,13 +40,13 @@
         title="Click to copy"
         data-clipboard-text="{{bg}}"
         @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
-        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top rounded-lg bg-morningInterface hover:bg-right-bottom focus:outline-none copy-button"
+        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top bg-midnightInterface hover:bg-right-bottom focus:outline-none copy-button"
       >
-        <div class="w-full h-full rounded-t-lg bg-[{{bg}}]"></div>
+        <div class="w-full h-28  bg-[{{bg}}]"></div>
         <p
-          class="inline-flex items-center h-20 px-2 text-sm font-semibold text-center md:text-md text-morningText"
+          class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
         >
-          <span>{{name}}</span>
+          <span>{{name}} - {{bg}}</span>
         </p>
       </button>
       {{/each}}
@@ -55,7 +55,7 @@
   <div class="py-20">
     <h4
       id="main-swatches"
-      class="pb-6 text-lg font-semibold leading-none text-morningText font-display"
+      class="pb-6 text-lg font-semibold leading-none text-midnightText font-display"
     >
       Serendipity Midnight
     </h4>
@@ -66,13 +66,13 @@
         title="Click to copy"
         data-clipboard-text="{{bg}}"
         @click="$dispatch('notice', {type: 'success', text: ' ✓ Color Copied To Clipboard!'})"
-        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top rounded-lg bg-morningInterface hover:bg-right-bottom focus:outline-none copy-button"
+        class="flex flex-col items-center h-full duration-200 ease-in-out bg-left-top bg-midnightInterface hover:bg-right-bottom focus:outline-none copy-button"
       >
-        <div class="w-full h-full rounded-t-lg bg-[{{bg}}]"></div>
+        <div class="w-full h-28  bg-[{{bg}}]"></div>
         <p
-          class="inline-flex items-center h-20 px-2 text-sm font-semibold text-center md:text-md text-morningText"
+          class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
         >
-          <span>{{name}}</span>
+          <span>{{name}} - {{bg}}</span>
         </p>
       </button>
       {{/each}}

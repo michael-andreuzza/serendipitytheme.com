@@ -66,7 +66,7 @@ module.exports = {
         morningMint: "#77AAB3",
       },
       fontFamily: {
-        display: ['"Fugaz One"', 'cursive'],
+        display: ['Machina'],
 
         sans: [
           '"Inter"',
