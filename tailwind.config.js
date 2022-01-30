@@ -9,11 +9,7 @@ module.exports = {
         squares: "url('../images/serendipityhero.png')",
         wickedAd: "url('../images/wickedad.png')",
       }),
-      boxShadow: {
 
-        ripple: "",
-
-      },
 
       colors: {
         //Midnight
@@ -67,7 +63,6 @@ module.exports = {
       },
       fontFamily: {
         display: ['Machina'],
-
         sans: [
           '"Inter"',
           "system-ui",
