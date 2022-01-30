@@ -6,7 +6,7 @@ module.exports = {
     extend: {
 
       backgroundImage: (theme) => ({
-        squares: "url('../images/serendipityhero.png')",
+        editors: "url('../images/editors.png')",
         wickedAd: "url('../images/wickedad.png')",
       }),
 
