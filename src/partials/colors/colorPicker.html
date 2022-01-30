@@ -6,7 +6,7 @@
     >
       Serendipity midnight
     </h4>
-    <div class="grid grid-cols-3 gap-4 sm:gap-6 md:grid-cols-6">
+    <div class="grid grid-cols-3 md:grid-cols-6">
       {{#each data.midnight}}
       <button
         x-data="{}"
@@ -19,7 +19,7 @@
         <p
           class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
         >
-          <span>{{name}} - {{bg}} </span>
+          <span>{{name}} </span>
         </p>
       </button>
       {{/each}}
@@ -33,7 +33,7 @@
     >
       Serendipity Sunset
     </h4>
-    <div class="grid grid-cols-3 gap-4 sm:gap-6 md:grid-cols-6">
+    <div class="grid grid-cols-3 g md:grid-cols-6">
       {{#each data.sunset}}
       <button
         x-data="{}"
@@ -46,7 +46,7 @@
         <p
           class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
         >
-          <span>{{name}} - {{bg}}</span>
+          <span>{{name}} </span>
         </p>
       </button>
       {{/each}}
@@ -57,10 +57,10 @@
       id="main-swatches"
       class="pb-6 text-lg font-semibold leading-none text-midnightText font-display"
     >
-      Serendipity Midnight
+      Serendipity Morning
     </h4>
-    <div class="grid grid-cols-3 gap-4 sm:gap-6 md:grid-cols-6">
-      {{#each data.midnight}}
+    <div class="grid grid-cols-3 g md:grid-cols-6">
+      {{#each data.morning}}
       <button
         x-data="{}"
         title="Click to copy"
@@ -72,7 +72,7 @@
         <p
           class="inline-flex items-center h-20 px-2 text-sm font-light md:text-md text-midnightText"
         >
-          <span>{{name}} - {{bg}}</span>
+          <span>{{name}} </span>
         </p>
       </button>
       {{/each}}
