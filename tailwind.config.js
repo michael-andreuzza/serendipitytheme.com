@@ -7,6 +7,7 @@ module.exports = {
 
       backgroundImage: (theme) => ({
         editors: "url('../images/editors.png')",
+        collage: "url('../images/collage.png')",
         wickedAd: "url('../images/wickedad.png')",
       }),
 
