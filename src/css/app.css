@@ -4,10 +4,10 @@
 @tailwind components;
 @font-face {
   font-family: 'Machina';
-    src: url("../fonts/machina/NeueMachina-Regular.otf"); /* IE9 Compat Modes */
-    src: url("../fonts/machina/NeueMachina-Regular.eot") format('embedded-opentype'), /* IE6-IE8 */
-        url("../fonts/machina/NeueMachina-Regular.woff2") format('woff2'), /* Super Modern Browsers */
-        url("../fonts/machina/NeueMachina-Regular.woff") format('woff'); /* Pretty Modern Browsers */
+    src: url("../fonts/machina/NeueMachina-Ultralight.otf"); /* IE9 Compat Modes */
+    src: url("../fonts/machina/NeueMachina-Ultralight.eot") format('embedded-opentype'), /* IE6-IE8 */
+        url("../fonts/machina/NeueMachina-Ultralight.woff2") format('woff2'), /* Super Modern Browsers */
+        url("../fonts/machina/NeueMachina-Ultralight.woff") format('woff'); /* Pretty Modern Browsers */
 
     font-weight: 400 !important;
     font-style: normal;
