@@ -63,9 +63,9 @@ module.exports = {
         morningMint: "#77AAB3",
       },
       fontFamily: {
-        display: ['Machina'],
-        sans: [
-          '"Inter"',
+
+        body: [
+          '"IBM Plex Sans"',
           "system-ui",
           "-apple-system",
           "BlinkMacSystemFont",

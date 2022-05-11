@@ -4,29 +4,36 @@
   >
     <div class="flex flex-wrap items-start pb-10 sm:pt-4 sm:pb-14">
       <div
-        class="flex-none w-full max-w-4xl mt-10 space-y-6 text-left xl:w-auto xl:flex-auto"
+        class="flex-none w-full mt-10 space-y-6 text-left xl:w-auto xl:flex-auto"
       >
-        <h1
-          class="text-3xl font-thin leading-snug font-display text-sunsetText sm:text-4xl"
-        >
-          Serendipity is a VS Code theme that has been ported to other UI's,
-          IDE's and APP's
-        </h1>
+        <div class="items-center lg:inline-flex">
+          <div>
+            <h1
+              class="text-3xl font-semibold leading-snug text-morningFennel sm:text-4xl lg:text-7xl"
+            >
+              Serendipity is a VS Code theme that has been ported to other UI's,
+              IDE's and APP's
+            </h1>
+          </div>
 
-        <div class="max-w-xl mt-10">
-          <span class="inline-flex items-center p-2 bg-sunsetFennel"> </span>
-          <span class="inline-flex items-center p-2 bg-sunsetMint"> </span>
-          <span class="inline-flex items-center p-2 bg-sunsetCoral"> </span>
-          <span class="inline-flex items-center p-2 bg-sunsetSalmon"> </span>
-          <span class="inline-flex items-center p-2 bg-sunsetViolet"> </span>
-          <span class="inline-flex items-center p-2 bg-sunsetSky"> </span>
-          <p class="mt-4 text-3xl font-thin leading-snug text-sunsetSoft">
-            Elegant, minimal, clean and respectful with your eyes. Now, with
-            minimal icons for the tree too.
-          </p>
-          <div class="inline-flex items-center mt-4 space-x-4">
-            {{>"serendipityIcons/special"}} {{>"serendipityIcons/file"}}
-            {{>"serendipityIcons/folder"}} {{>"serendipityIcons/openFolder"}}
+          <div class="max-w-xl mt-10">
+            <p class="mt-4 text-3xl font-light leading-snug text-morningSoft">
+              Elegant, minimal, clean and respectful with your eyes. Now, with
+              minimal icons for the tree too.
+            </p>
+            <div class="inline-flex items-center mt-4 space-x-4">
+              <span class="inline-flex items-center p-2 bg-sunsetFennel">
+              </span>
+              <span class="inline-flex items-center p-2 bg-sunsetMint"> </span>
+              <span class="inline-flex items-center p-2 bg-sunsetCoral"> </span>
+              <span class="inline-flex items-center p-2 bg-sunsetSalmon">
+              </span>
+              <span class="inline-flex items-center p-2 bg-sunsetViolet">
+              </span>
+              <span class="inline-flex items-center p-2 bg-sunsetSky"> </span>
+              {{>"serendipityIcons/special"}} {{>"serendipityIcons/file"}}
+              {{>"serendipityIcons/folder"}} {{>"serendipityIcons/openFolder"}}
+            </div>
           </div>
         </div>
       </div>
@@ -34,4 +41,4 @@
   </div>
 </header>
 
-<section class="h-screen bg-center bg-cover bg-editors"></section>
+<section class="h-screen bg-top bg-cover bg-editors"></section>
