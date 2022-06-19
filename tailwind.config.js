@@ -64,8 +64,8 @@ module.exports = {
       },
       fontFamily: {
 
-        body: [
-          '"IBM Plex Sans"',
+         sans: [
+          '"Manrope"',
           "system-ui",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -79,11 +79,40 @@ module.exports = {
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
         ],
+        display: [
+          '"NeueHaasDisplayBlack"',
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          '"Helvetica Neue"',
+          "Arial",
+          '"Noto Sans"',
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+        ],
+        ds: [
+          '"NeueHaasGroteskDisp Pro Md"',
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          '"Helvetica Neue"',
+          "Arial",
+          '"Noto Sans"',
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+        ],
+        
       },
     },
   },
-  variants: {
-    extend: {},
-  },
+
   plugins: [],
 };
