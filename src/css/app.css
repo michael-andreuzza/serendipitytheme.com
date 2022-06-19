@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'NeueHaasDisplayBlack';
+
+  src:
+    url("../fonts/NeueHaasDisplayBlack.woff2") format('woff2');
+
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'machina';
+
+  src:
+    url("../fonts/machina/InktrapUltrabold.woff2") format('woff2');
+
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NeueHaasGroteskDisp Pro Md";
+}
