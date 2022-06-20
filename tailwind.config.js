@@ -7,8 +7,8 @@ module.exports = {
 
       backgroundImage: (theme) => ({
         editors: "url('../images/editors.png')",
-        collage: "url('../images/collage.png')",
-        wickedAd: "url('../images/wickedad.png')",
+       
+
       }),
 
 
@@ -109,7 +109,22 @@ module.exports = {
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
         ],
-        
+        machina: [
+          '"machina"',
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          '"Helvetica Neue"',
+          "Arial",
+          '"Noto Sans"',
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+        ],
+
       },
     },
   },
