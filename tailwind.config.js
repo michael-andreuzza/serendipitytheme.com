@@ -4,14 +4,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-
       backgroundImage: (theme) => ({
         editors: "url('../images/editors.png')",
-       
-
       }),
-
-
       colors: {
         //Midnight
         midnightBase: "#151726",
@@ -63,8 +58,7 @@ module.exports = {
         morningMint: "#77AAB3",
       },
       fontFamily: {
-
-         sans: [
+        sans: [
           '"Manrope"',
           "system-ui",
           "-apple-system",
@@ -79,55 +73,9 @@ module.exports = {
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
         ],
-        display: [
-          '"NeueHaasDisplayBlack"',
-          "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          '"Segoe UI"',
-          "Roboto",
-          '"Helvetica Neue"',
-          "Arial",
-          '"Noto Sans"',
-          "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-        ],
-        ds: [
-          '"NeueHaasGroteskDisp Pro Md"',
-          "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          '"Segoe UI"',
-          "Roboto",
-          '"Helvetica Neue"',
-          "Arial",
-          '"Noto Sans"',
-          "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-        ],
-        machina: [
-          '"machina"',
-          "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          '"Segoe UI"',
-          "Roboto",
-          '"Helvetica Neue"',
-          "Arial",
-          '"Noto Sans"',
-          "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-        ],
-
       },
+
     },
   },
-
   plugins: [],
 };
